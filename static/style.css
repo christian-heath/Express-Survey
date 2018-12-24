@@ -1,0 +1,35 @@
+.big_form{
+    padding: 15px;
+    margin: 15px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 5px;
+    background-color: lightblue;
+}
+h3{
+    padding: 15px;
+    margin: 15px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 5px;
+    background-color: lightblue;
+}
+#error{
+    color: red;
+}
+h3{
+    padding: 15px;
+    margin: 15px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 5px;
+    background-color: lightblue;
+}
+#info{
+    padding: 15px;
+    margin: 15px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 5px;
+    background-color: lightblue;
+}

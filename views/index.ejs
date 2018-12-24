@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Welcome to this Survey!</h3>
+        <form class='big_form' action="result" method="POST">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" name='Name' value="">
+            </div>
+            <div class="form-group">
+                <label for="DojoLocation">Dojo Location</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="DojoLocation">
+                    <option value="Tulsa">Tulsa</option>
+                    <option value='San_Francisco'>San Francisco</option>
+                    <option value='Dallas'>Dallas</option>
+                    <option value='Chicago'>Chicago</option>
+                    <option value='Seattle'>Seattle</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="FavoriteLanguage">Favorite Language</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="FavoriteLanguage">
+                    <option value='Java'>Java</option>
+                    <option value='Javascript'>Javascript</option>
+                    <option value='Python'>Python</option>
+                    <option value='C#'>C#</option>
+                    <option value='Ruby'>Ruby</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Comment">Comment</label>
+                <textarea name="Comment" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" value='submit' class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
